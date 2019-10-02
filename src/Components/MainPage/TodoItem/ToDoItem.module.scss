@@ -1,0 +1,91 @@
+.containerLight {
+    width: 100%;
+    height: 90vh;
+    background-color:#F6F7FA;
+    grid-area: c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.containerDark {
+    width: 100%;
+    height: 90vh;
+    background-color:rgb(1, 3, 10);
+    grid-area: c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.todoContainer{
+    margin: 10px 0px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 0.5px solid grey;
+    width: 90%;
+    height: 70px;
+    .header {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        .headerChilds{
+            width: 300px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+    }
+    .nameToDoItem{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-weight: bolder;
+        margin-left: 20px;
+        height: 20px;
+        width: 100%;
+    }
+    .content {
+        
+        display: flex;
+        .description{
+            width: 80%;
+            height: 100%;
+            overflow: hidden;
+        }
+        .trash{
+            width: 2%;
+        }
+        .buttons{
+                width: 12%;
+                
+            }
+        .buttons:hover{
+            transition: 2s;
+            background-color: rgb(115, 216, 230);
+                
+        }    
+        .closeButton{
+                width: 6%
+            }
+        
+    }   
+}
+
+.deleteButton {
+    color: grey;
+}
+
+.completed{
+    color:#7BDE8A;
+}
+.date {
+    color: #B4BBCD;
+}
+
+.headerBox{
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+

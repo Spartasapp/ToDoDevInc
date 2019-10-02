@@ -1,0 +1,30 @@
+.logo {
+    height: 10vh;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoName{
+    margin-left: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+.outerCircle {
+    display: flex;
+    background: linear-gradient(to top left,#4B80DB,#2F5486);
+    border-radius: 25px;
+    height:40px;
+    width:40px;
+    justify-content: center;
+    align-items: center;
+}
+.innerCircle {
+    background: #a9aaab;
+    border-radius: 15px;;
+    height:20px;
+    width:20px;
+    background-color: #0E1A35;
+}

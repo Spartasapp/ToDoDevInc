@@ -1,0 +1,51 @@
+.headerLight {
+    width: 100%;
+    height: 10vh;
+    background-color:#FFFFFF;
+    grid-area: h;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    animation: darkToLigh 1s ease-in-out;
+    .addToDoButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #5584FF;
+    color: white;
+    }
+}
+.headerDark {
+    width: 100%;
+    height: 10vh;
+    background-color:rgb(57, 61, 71);
+    grid-area: h;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    animation: lightToDar 1s ease-in-out;
+    .addToDoButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 50px;
+    border-radius: 25px;
+    transition: 1s;
+    background-color: gold;
+    color: white;
+}
+}
+
+@keyframes lightToDar {
+    from {background-color: #FFFFFF};
+    to {background-color: rgb(57, 61, 71)};
+  }
+  
+  @keyframes darkToLigh {
+    from {background-color:  rgb(57, 61, 71)};
+    to {background-color: #FFFFFF};
+  }

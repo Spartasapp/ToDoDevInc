@@ -1,0 +1,40 @@
+.containerLight {
+    width: 100%;
+    height: 90vh;
+    background-color:#F6F7FA;
+    grid-area: c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.containerDark {
+    width: 100%;
+    height: 90vh;
+    background-color:rgb(2, 8, 24);
+    grid-area: c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.todoContainer{
+    margin: 10px 0px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 0.5px solid grey;
+    width: 90%;
+    height: 50px;
+}
+
+.deleteButton {
+    color: grey;
+}
+
+.completed{
+    color:#7BDE8A;
+}
+.date {
+    color: #B4BBCD;
+}
